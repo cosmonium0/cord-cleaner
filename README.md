@@ -25,7 +25,7 @@ Logs everything to a cleanup_log.json file	✔️
 Only the command initiator can confirm actions	✔️
 🚀 Setup (GitHub Codespace Recommended)
 1. Fork or Clone the Repo
-git clone https://github.com/YOURUSERNAME/discord-cleanup-bot.git
+git clone https://github.com/cosmonium0/cord-cleaner
 cd discord-cleanup-bot
 
 2. Install Requirements
