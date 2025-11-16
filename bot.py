@@ -102,9 +102,9 @@ class FirstConfirmView(discord.ui.View):
         }
 
         await interaction.response.send_message(
-            "⚠️ **FINAL WARNING:** This will delete **ALL roles, emojis, and stickers.**\n"
+            "``` This will delete **All roles, emojis, and stickers.**\n"
             "This action cannot be undone.\n\n"
-            "Click CONFIRM to execute.",
+            "Click CONFIRM to execute.```",
             view=SecondConfirmView(self.ctx, log)
         )
         self.stop()
